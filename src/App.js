@@ -49,7 +49,7 @@ export default function App() {
         disabled={loading} // for assistive technologies
       >
         {loading ? <SpinnerIcon /> : <HeartIcon />}
-        <span style={{ margin: "0.25rem" }}>Like</span>
+        <span>Like</span>
       </button>
 
       {error && <div className="error-message">{error}</div>}
